@@ -1,0 +1,2 @@
+#!/bin/bash
+../../Betty/betty-style.pl $1
