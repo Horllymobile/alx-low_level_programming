@@ -1,2 +1,3 @@
 #!/bin/bash
 ../../Betty/betty-style.pl $1
+../../Betty/betty-doc.pl $1
