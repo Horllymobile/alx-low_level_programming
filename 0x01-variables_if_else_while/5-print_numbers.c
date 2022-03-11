@@ -7,7 +7,7 @@ int main(void)
 {
 int i = 0;
 char nums[] = "01234456789";
-for (; i < 10; i++)
+for (; i < 11; i++)
 {
 putchar(nums[i]);
 }
