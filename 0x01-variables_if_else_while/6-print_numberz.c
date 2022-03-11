@@ -5,12 +5,11 @@
  **/
 int main(void)
 {
-int i = 0;
-while (i <= 9)
-{
-  fputc(i);
-i++;
-}
-putchar('\n');
-return (0);
+  int i;
+  for (i = 48; i< 58; i++)
+    {
+      putchar(i);
+    }
+  putchar('\n');
+  return (0);
 }
