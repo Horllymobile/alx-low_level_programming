@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+* main - starting point of C program
+* Return: number - 1
+**/
+int main(void)
+{
+char alpha[] = "abcdefghijklmnopqrstuvwxyz";
+int length = sizeof(alpha) / sizeof(int);
+ printf("%d", length);
+for (int i = 0; i < length; i++)
+{
+putchar(alpha[i]);
+}
+return (0);
+}
