@@ -6,8 +6,8 @@
 int main(void)
 {
 int i = 0;
-char nums[] = "01234456789";
-for (; i < 11; i++)
+char nums[] = "0123456789";
+for (; i < 10; i++)
 {
 putchar(nums[i]);
 }
