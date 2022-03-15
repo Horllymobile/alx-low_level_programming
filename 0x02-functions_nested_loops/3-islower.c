@@ -8,14 +8,7 @@
  */
 int _islower(int c)
 {
-int i;
-int result;
-for (i = 'a'; i <= 'z'; i++)
-{
-if (c == i)
-result = 1;
-else
-result = 0;
-}
-return result;
+  if (c >= 'a' && c <= 'z')
+    return (1);
+  return (0);
 }
