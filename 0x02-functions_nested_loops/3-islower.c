@@ -1,5 +1,5 @@
 #include <stdio.h>
-0;276;0c#include "main.h"
+#include "main.h"
 
 /**
  * _islower - Check if alphabets is lower case
