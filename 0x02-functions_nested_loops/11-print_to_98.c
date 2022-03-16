@@ -14,5 +14,5 @@ printf("%d, ", c);
 else if (c < 98)
 for (; c < 98; c++)
 printf("%d, ", c);
-printf("%d/n", c);
+printf("%d\n", c);
 }
