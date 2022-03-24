@@ -1,8 +1,3 @@
-#ifndef MAIN_H
-#define MAIN_H
-#include <stdio.h>
-#include <string.h>
+#pragma once;
 
 char *_strcpy(char *dest, char *src);
-
-#endif /* MAIN_H */
