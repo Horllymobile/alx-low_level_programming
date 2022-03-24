@@ -1,24 +1,30 @@
 #include "main.h"
 
 /**
- * *_strcat - Entry point of the function
- * @dest: destination parameter
- * @src: source parameter to copy
- * Return: character of concatenated strings
- **/
-
+ * _strcat - concatenates two strings
+ *
+ * @dest: destination string
+ * @src: source string
+ *
+ * Return: the pointer to @dest
+ */
 char *_strcat(char *dest, char *src)
 {
-int i, j;
-while (*(dest + i) != '\0')
-i++;
-while (true)
+int lenSrc = 0, lenDest = 0;
+
+while (*(dest + lenDest) != '\0')
+lenDest++;
+
+/* While true */
+while (1 == 1)
 {
-*(dest + i) = *(src + j);
-if (*(src + j) == '\0')
+*(dest + lenDest) = *(src + lenSrc);
+if (*(src + lenSrc) == '\0')
 break;
-i++;
-j++;
+
+lenSrc++;
+lenDest++;
 }
+
 return (dest);
 }
