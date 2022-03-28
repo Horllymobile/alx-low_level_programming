@@ -1,5 +1,4 @@
 #include "main.h"
-0;276;0c
 /**
  * *_memcpy - Entry pont of memory copy
  * @dest: char pointer parameter 1
