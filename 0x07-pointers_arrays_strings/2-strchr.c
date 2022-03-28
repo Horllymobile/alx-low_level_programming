@@ -1,16 +1,21 @@
 #include "main.h"
 /**
- * *_strchr - Entry point of the function
- * @s: first pointer parameter
- * @c: second char parameter
- * Return: s or NULL
- **/
+ * _strchr - entry point
+ * @s: pointe to string
+ * @c: character
+ * Return: first occurrence of the char c
+ */
 char *_strchr(char *s, char c)
 {
-while (*s != '\0')
+unsigned int i = 0;
+for (; *(s + i) != '\0'; i++)
 {
-if (*s == c)
-return (s);
+if (*(s + i) == c)
+{
+return (s + i);
 }
+}
+if (*(s + i) == c)
+return (s + i);
 return (NULL);
 }
