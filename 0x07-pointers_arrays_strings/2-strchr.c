@@ -1,5 +1,6 @@
 #include "main.h"
-0;276;0c/**
+
+/**
  * _strchr - entry point
  * @s: pointe to string
  * @c: character
