@@ -10,7 +10,8 @@ if (*s != '\0')
 {
 _putchar(*s);
 }
-if (*(s + 1) != '\0'){
+if (*(s + 1) != '\0')
+{
 _puts_recursion(s + 1);
 }
 else
