@@ -1,6 +1,6 @@
 #include "main.h"
 
-0;276;0c/**
+/**
  * _strlen_recursion - Entry point of the function
  * @s: char pointer parameter
  * Return: void
