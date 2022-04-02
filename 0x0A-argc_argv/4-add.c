@@ -1,30 +1,45 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main - Entry point
- * @argc: number
- * @argv: values
- * Return: 0 of successful else 1
+ * containsNonDigit - check if a string contains a non digit
+ *
+ * @s: given string
+ *
+ * Return: 1 if s contains a non digit otherwise return 0
  */
-int main(int argc, char **argv)
+int containsNonDigit(char *s)
 {
-int i, sum = 0;
-int term;
-i = 1;
-while (i < argc && term == 0)
+int i;
+
+for (i = 0; s[i] != '\0'; i++)
+if (s[i] < '0' || s[i] > '9')
+return (1);
+return (0);
+}
+
+/**
+ * main - add positive numbers passed as arguments
+ *
+ * @argc: argument count
+ * @argv: argument vector
+ *
+ * Return: 0
+ */
+int main(int argc, char *argv[])
 {
-if (atoi(*(argv + i)) == 0)
+int sum = 0;
+
+while (--argc > 0)
 {
-term = 1;
+if (containsNonDigit(argv[argc]) == 1)
+{
 printf("Error\n");
-} else
-{
-sum += atoi(*(argv + i));
-i++;
-term = 0;
+return (0);
 }
+sum += atoi(argv[argc]);
 }
-if (term == 0)
+
 printf("%d\n", sum);
-return (term);
+return (0);
 }
