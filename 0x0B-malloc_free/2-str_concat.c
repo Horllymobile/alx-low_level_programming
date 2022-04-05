@@ -4,7 +4,7 @@
  * str_concat - Entry point
  * @s1: string 1
  * @s2: string 2
- * @return char*
+ * Return: char*
  */
 char *str_concat(char *s1, char *s2)
 {
