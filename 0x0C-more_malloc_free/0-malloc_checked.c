@@ -1,19 +1,18 @@
 #include "main.h"
 
 /**
- * malloc_checked - Entry point
- * @b: unsigned int parameter
- * Return: return void
+ * malloc_checked - allocates the memory using malloc
+ *
+ * @b: him
+ *
+ * Return: a pointer to the allocated memory
  */
-
 void *malloc_checked(unsigned int b)
 {
 void *p;
+
 p = malloc(b);
 if (p == NULL)
-{
-printf("L%d: Failed to allocate memory\n", __LINE__);
 exit(98);
-}
 return (p);
 }
