@@ -2,6 +2,11 @@
 #define DOG_H
 
 /**
+ * dog_t - Typedef for struct dog
+ */
+typedef struct dog dog_t;
+
+/**
  * struct dog - Define a new type struct
  * dog with the following elements:
  * @name: First member
