@@ -12,15 +12,15 @@ if (d == NULL)
 printf("\n");
 if (d->name == NULL)
 {
-printf("Name: (nill)");
+printf("Name: (nil)");
 }
 else if (!(d->age))
 {
-printf("Age: (nill)");
+printf("Age: (nil)");
 }
 else if (d->owner == NULL)
 {
-printf("Owner: (nill)");
+printf("Owner: (nil)");
 }
 else
 {
