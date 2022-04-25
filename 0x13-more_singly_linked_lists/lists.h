@@ -15,10 +15,10 @@ int n;
 struct listint_s *next;
 } listint_t;
 
-// Custome functioons
+/* Custome functioons */
 size_t print_listint(const listint_t *h);
 
-// Put char
+/* Put char */
 int _putchar(char c);
 
 #endif /* LIST_H */

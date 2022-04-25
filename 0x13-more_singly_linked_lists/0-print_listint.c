@@ -16,5 +16,5 @@ printf("%d\n", h->n);
 h = h->next;
 total += 1;
 }
-return total;
+return (total);
 }
